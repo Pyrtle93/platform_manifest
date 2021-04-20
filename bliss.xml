@@ -22,6 +22,9 @@
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
+		  
+  <remote name="Pyrtle93"
+          fetch="https://github.com/Pyrtle93" />
 
   <!-- Remove first some AOSP repos -->
 
@@ -185,7 +188,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="Pyrtle93" revision="A11" />
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
